@@ -4,9 +4,10 @@
   "description": "Backend for the Website",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "tsc && node dist/contact.js",
+    "start": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
